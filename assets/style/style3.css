@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/**/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Corpo*/
+body{
+    font-family: roboto, sans-serif;
+    overflow-x: hidden;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+/*cabeçalho*/
+header{
+    font-family: 'Roboto', sans-serif;
+    margin: -5px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    background-image: linear-gradient(to top,  rgb(20, 20, 20), black);
+}
+
+header img{
+    display: inline-block;
+    margin: -22px -3px 0px 5px;
+    padding: 10px;
+    height: 60px;
+    float: left;
+}
+
+/*Navegação cabeçalho*/
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.nav2{
+    display: flex;
+}
+
+.nav2 p{
+    font-size: 13px;
+    color: white;
+    margin: 10px;
+}
+
+.perfil{
+    padding-top: 20px;
+    padding-right: 58px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.lupa{
+    padding-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.sino{
+    padding-top:30px ;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+header ul{
+    text-decoration: none;
+    padding-left: 20px;
+    display: flex;
+    list-style: none;
+}
+
+header li{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    margin: 10px;
+}
+
+header li:hover{
+    color: rgb(158, 158, 158);
+}
+
+header a{
+    text-decoration: none;
+}
+
+main{
+    box-shadow: 0px 0px 5px 0px black;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: auto;
+    width: 820px;
+    height: 800px;
+    border-radius: 5px ;
+
+}
+
+.container{
+    padding: 10px;
+}
+
+main .btn{
+    padding: 5px 20px 5px 20px;
+    margin: auto;
+    width: 800px;
+    color: white;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main .imagem img{
+    border-radius: 4px;
+    width: 800px;
+    height: 400px;
+}
+
+main .comentarios img{
+    margin-left: 4px;
+    padding-top: 10px;
+    width: 30px;
+}
+
+main .comentarios p{
+    text-align: justify;
+    padding: 5px;
+}
+
+main p{
+    margin-top: 10px;
+}
+
+
+#nota2{
+    color: rgb(208, 255, 0);
+}
+
+#nota1{
+    color: green;
+}

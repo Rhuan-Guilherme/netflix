@@ -20,6 +20,7 @@ header{
     font-family: 'Roboto', sans-serif;
     margin: -5px;
     margin-bottom: 20px;
+    padding-top: 15px;
     background-image: linear-gradient(to top,  rgb(20, 20, 20), black);
 }
 

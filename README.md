@@ -1,2 +1,0 @@
-# netflix
- Clone site netflix
